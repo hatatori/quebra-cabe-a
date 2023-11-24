@@ -1,0 +1,54 @@
+*{
+    transition: .3s;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+}
+
+body{
+    background-color: #272727;
+    background-color: black;
+}
+
+canvas{
+    z-index: 0;
+    position: absolute;
+    /* border: solid 1px black; */
+    /* box-shadow: 0px 0px 0px 1px black; */
+}
+
+canvas:hover{
+    box-shadow: 0px 0px 0px 5px white;
+    /* border-left: solid 1px white; */
+    /* border-bottom: solid 1px white; */
+
+    z-index: 10;
+    /* border: solid 1px white; */
+    /* transition: 0s; */
+    cursor: pointer;
+    /* opacity: 0.85; */
+    transition: 0.2s;
+    border: "solid lime 1px";
+    /* scale: 0.95 */
+}
+
+#painel{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    background-color: black;
+    margin: 10px auto;
+    padding: 1px;
+    position: relative;
+    
+}
+
+.buttons{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.buttons button{
+    padding: 3px;
+}
